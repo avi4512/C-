@@ -11,7 +11,7 @@ namespace ConsoleApp1
             {
                 for(int j = i+1;j<arr.Length; j++)
                 {
-                    if(arr[i] != arr[j])
+                    if(arr[i] == arr[j])
                     {
                         Console.WriteLine("First repeated number is:" + arr[i]);
                         return;
